@@ -11,10 +11,10 @@ function App() {
     <>
         <BrowserRouter>
           <Routes>
-          <Route path="/"  element={<Counter/>} />
-            <Route path="/project/cars"  element={<Cars/>} />
-            <Route path="/project/chess"  element={<Chess/>} />
-            <Route path="/gambel/mine" element={<Gamble/>}/>
+          <Route path="/days-until/"  element={<Counter/>} />
+            <Route path="/days-until/project/cars"  element={<Cars/>} />
+            <Route path="/days-until/project/chess"  element={<Chess/>} />
+            <Route path="/days-until/gambel/mine" element={<Gamble/>}/>
           </Routes>
         </BrowserRouter>
     </>
