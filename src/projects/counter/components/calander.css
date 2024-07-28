@@ -1,0 +1,32 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Adjust based on HorizontalAxis */
+    gap: 5px;
+  }
+  
+  .day-box {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .crossed {
+    background-color: #d3d3d3; /* Gray color for crossed days */
+    text-decoration: line-through;
+  }
+  
+  .current-day {
+    background-color: #ff0; /* Yellow circle for the current day */
+    border-radius: 50%;
+  }
+  
+  .crown {
+    font-size: 1.5em; /* Adjust size as needed */
+  }
+  
